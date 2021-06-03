@@ -85,6 +85,10 @@ ul.menu > li ul ul {
   background-color: var(--green-dark);
 }
 
+ul.menu > li:hover {
+  background-color: var(--green-dark);
+}
+
 ul.menu > li:hover > ul {
   opacity: 1;
   visibility: visible;
