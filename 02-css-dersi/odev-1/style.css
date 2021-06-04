@@ -100,3 +100,25 @@ ul.menu ul li:hover > ul {
   visibility: visible;
   left: 200px;
 }
+
+/** Header Nav.da sağdaki buttonların stilleri */
+.menu-btn {
+  float: right;
+  height: 100%;
+}
+
+.menu-btn > button {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  width: 130px;
+  margin: 9px 20px 9px 0;
+  padding: 12px 20px;
+  border-radius: 25px;
+}
+
+.menu-btn > button:hover {
+  background-color: var(--green-dark);
+  color: #fff;
+  cursor: pointer;
+}
