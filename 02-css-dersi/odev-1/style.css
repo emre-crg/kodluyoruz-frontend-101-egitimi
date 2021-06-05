@@ -2,10 +2,15 @@
 
 :root {
   --menu-height: 60px;
+
+  /* Colors */
   --white: #ffffff;
+
   --green-primary: #059862;
   --green-light: #05986293;
   --green-dark: #048153;
+
+  --black-primary: #282A35;
 }
 
 body {
@@ -122,3 +127,77 @@ ul.menu ul li:hover > ul {
   color: #fff;
   cursor: pointer;
 }
+
+
+/** Anasayfanın main ve container elemanları */
+
+.container > section {
+  height: 400px;
+  /* font-size: 96px; */
+  font-weight: bold;
+
+}
+
+.black {
+  background-color: var(--black-primary);
+  color: white;
+}
+
+.light-green {
+  background-color: #D9EEE1;
+  color: black;
+}
+
+.green {
+  background-color: var(--green-primary);
+  color: white;
+}
+
+.yellow {
+  background-color: #FFF4A3;
+  color: black;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.pink {
+  background-color: #FFC0C7;
+  color: black;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 60px 10px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.center >  h1 {
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+
+.center > p {
+  margin-bottom: 40px;
+}
+
+.center > a {
+  display: block;
+  margin: 20px auto;
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: 180px;
+}
+
+
+/* .center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+} */
