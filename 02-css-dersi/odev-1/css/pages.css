@@ -1,0 +1,64 @@
+#main {
+  width: 80%;
+  margin: auto;
+  padding: 16px 24px;
+  border-right: 1px solid #f1f1f1;
+  border-left: 1px solid #f1f1f1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+main > h1 {
+  font-size: 42px;
+}
+
+
+/* Home ve Next buttonları */
+.nextprev {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nextprev a {
+  padding: 8px 16px;
+  background-color: var(--green-primary);
+  border: 1px solid #cccccc;
+  color: white;
+  border-radius: 5px;
+}
+
+
+/* Info Kısmı*/
+.info {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #D9EEE1;
+  padding: 32px;
+  margin: 24px -24px;
+}
+
+.info img {
+  width: 100px;
+  margin: 18px;
+}
+.info > div {
+  margin: 18px;
+}
+
+.info p + p {
+  margin-top: 24px;
+}
+
+.info a {
+  display: block;
+  width: fit-content;
+  margin-top: 24px;
+  padding: 8px 16px;
+  background-color: var(--green-primary);
+  border: 1px solid #cccccc;
+  color: white;
+  border-radius: 5px;
+}
