@@ -139,33 +139,33 @@ ul.menu ul li:hover > ul {
 }
 
 .black {
-  background-color: var(--black-primary);
-  color: white;
+  background-color: var(--black-primary)!important;
+  color: white!important;
 }
 
 .light-green {
-  background-color: #D9EEE1;
-  color: black;
+  background-color: #D9EEE1!important;
+  color: black!important;
 }
 
 .green {
-  background-color: var(--green-primary);
-  color: white;
+  background-color: var(--green-primary)!important;
+  color: white!important;
 }
 
 .yellow {
-  background-color: #FFF4A3;
-  color: black;
+  background-color: #FFF4A3!important;
+  color: black!important;
 }
 
 .white {
-  background-color: white;
-  color: black;
+  background-color: white!important;
+  color: black!important;
 }
 
 .pink {
-  background-color: #FFC0C7;
-  color: black;
+  background-color: #FFC0C7!important;
+  color: black!important;
 }
 
 .center {

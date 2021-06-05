@@ -4,6 +4,7 @@
   padding: 16px 24px;
   border-right: 1px solid #f1f1f1;
   border-left: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,4 +62,31 @@ main > h1 {
   border: 1px solid #cccccc;
   color: white;
   border-radius: 5px;
+}
+
+
+/** Genel komponent */
+.component {
+  margin: 24px 0;
+  padding: 12px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
+  
+.component h1, h2, h3 {
+  margin: 24px 0;
+}
+
+.component a {
+  display: block;
+  width: fit-content;
+  margin-top: 24px;
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 5px;
+}
+
+.component a:hover {
+  background-color: #ccc;
 }
