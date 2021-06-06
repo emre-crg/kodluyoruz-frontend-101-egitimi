@@ -12,8 +12,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
 }
 
-main > h1 {
+#main > h1 {
   font-size: 42px;
+}
+
+#main > h1:first-child {
+  margin-top: 100px;
 }
 
 
@@ -89,4 +93,42 @@ main > h1 {
 
 .component a:hover {
   background-color: #ccc;
+}
+
+
+/* Table-component **/
+.table-cmp {
+  margin: 24px 0;
+  border-top: 1px solid #f1f1f1;
+}
+
+.table-cmp table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.table-cmp input[type=text] {
+  width: 90%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  margin-bottom: 5px;
+}
+
+table td, th {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+
+table th:first-child, td:first-child {
+  padding-left: 16px;
+}
+
+table tr:nth-child(odd){
+  background-color: #f1f1f1;
 }
